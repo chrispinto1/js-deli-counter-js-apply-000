@@ -1,7 +1,8 @@
+var number = 0;
+
 function takeANumber(num){
-    var number = 0;
-    num.push(number);
     number++;
+    num.push(number);
     return "Welcome, You are number " + number;
 }
 
@@ -10,7 +11,7 @@ function nowServing(katzDeliLine){
     return "There is nobody waiting to be served!"
   }
   else{
-    var next = "Currently serving " + katzDeliLine[0] + "."
+    var next = "Currently serving " + katzDeliLine. + "."
     katzDeliLine.shift()
     return next
   }
