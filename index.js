@@ -1,7 +1,7 @@
-function takeANumber(num, name){
-   num.push(name);
-    return "Welcome, " + name + ". You are number " + `${num.indexOf(name) + 1}` +  " in line.";
+function takeANumber(num){
+    return "Welcome, You are number " + `${num.length}` +  " in line.";
 }
+
 function nowServing(katzDeliLine){
   if(katzDeliLine.length === 0 ){
     return "There is nobody waiting to be served!"
